@@ -130,6 +130,24 @@ dir = reDirname.REGEXP_WIN32.exec( 'C:\\foo\\bar\\home.html' )[ 1 ];
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/regexp/dirname-posix`][@stdlib/regexp/dirname-posix]: return a regular expression to capture a POSIX path dirname.
+-   [`@stdlib/regexp/dirname-windows`][@stdlib/regexp/dirname-windows]: return a regular expression to capture a Windows path dirname.
+-   [`@stdlib/utils/dirname`][@stdlib/utils/dirname]: return a directory name.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -193,9 +211,15 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/assert/is-windows]: https://github.com/stdlib-js/assert-is-windows
 
+<!-- <related-links> -->
+
 [@stdlib/regexp/dirname-posix]: https://github.com/stdlib-js/regexp-dirname-posix
 
 [@stdlib/regexp/dirname-windows]: https://github.com/stdlib-js/regexp-dirname-windows
+
+[@stdlib/utils/dirname]: https://github.com/stdlib-js/utils-dirname
+
+<!-- </related-links> -->
 
 </section>
 
