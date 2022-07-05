@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.reDirname;
+})();
 })();
 </script>
 ```
@@ -133,6 +135,7 @@ var dir = reDirname.REGEXP_WIN32.exec( 'C:\\foo\\bar\\index.js' )[ 1 ];
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 var RE_DIRNAME = reDirname();
 var dir;
 
@@ -146,6 +149,7 @@ dir = reDirname.REGEXP_POSIX.exec( '/foo/bar/home.html' )[ 1 ];
 dir = reDirname.REGEXP_WIN32.exec( 'C:\\foo\\bar\\home.html' )[ 1 ];
 // returns 'C:\\foo\\bar'
 
+})();
 })();
 </script>
 </body>
@@ -247,15 +251,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [posix]: https://en.wikipedia.org/wiki/POSIX
 
-[@stdlib/assert/is-windows]: https://github.com/stdlib-js/assert-is-windows/tree/umd
+[@stdlib/assert/is-windows]: https://github.com/stdlib-js/assert-is-windows/tree/umd/tree/umd
 
 <!-- <related-links> -->
 
-[@stdlib/regexp/dirname-posix]: https://github.com/stdlib-js/regexp-dirname-posix/tree/umd
+[@stdlib/regexp/dirname-posix]: https://github.com/stdlib-js/regexp-dirname-posix/tree/umd/tree/umd
 
-[@stdlib/regexp/dirname-windows]: https://github.com/stdlib-js/regexp-dirname-windows/tree/umd
+[@stdlib/regexp/dirname-windows]: https://github.com/stdlib-js/regexp-dirname-windows/tree/umd/tree/umd
 
-[@stdlib/utils/dirname]: https://github.com/stdlib-js/utils-dirname/tree/umd
+[@stdlib/utils/dirname]: https://github.com/stdlib-js/utils-dirname/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
