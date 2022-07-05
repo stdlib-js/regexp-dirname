@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/regexp-dirname",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Return a regular expression to capture a path dirname.",
   "license": "Apache-2.0",
   "author": {
