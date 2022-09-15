@@ -18,7 +18,7 @@ limitations under the License.
 
 -->
 
-# Dirname
+# reDirname
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
@@ -68,7 +68,7 @@ RE = reDirname( 'win32' );
 // returns <RegExp>
 
 dir = RE.exec( 'C:\\foo\\bar\\index.js' )[ 1 ];
-// returns 'C:\\foo\\bar'
+// returns 'C:\foo\bar'
 ```
 
 #### reBasename.REGEXP
@@ -95,7 +95,7 @@ var dir = reDirname.REGEXP_POSIX.exec( '/foo/bar/index.js' )[ 1 ];
 
 ```javascript
 var dir = reDirname.REGEXP_WIN32.exec( 'C:\\foo\\bar\\index.js' )[ 1 ];
-// returns 'C:\\foo\\bar'
+// returns 'C:\foo\bar'
 ```
 
 </section>
@@ -131,7 +131,7 @@ dir = reDirname.REGEXP_POSIX.exec( '/foo/bar/home.html' )[ 1 ];
 // returns '/foo/bar'
 
 dir = reDirname.REGEXP_WIN32.exec( 'C:\\foo\\bar\\home.html' )[ 1 ];
-// returns 'C:\\foo\\bar'
+// returns 'C:\foo\bar'
 ```
 
 </section>
