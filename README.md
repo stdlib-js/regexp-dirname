@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import reDirname from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname@deno/mod.js';
+import reDirname from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { REGEXP, REGEXP_POSIX, REGEXP_WIN32 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname@deno/mod.js';
+import { REGEXP, REGEXP_POSIX, REGEXP_WIN32 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname@v0.1.0-deno/mod.js';
 ```
 
 #### reDirname( \[platform] )
@@ -120,7 +120,7 @@ var dir = reDirname.REGEXP_WIN32.exec( 'C:\\foo\\bar\\index.js' )[ 1 ];
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import reDirname from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname@deno/mod.js';
+import reDirname from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname@v0.1.0-deno/mod.js';
 var RE_DIRNAME = reDirname();
 var dir;
 
