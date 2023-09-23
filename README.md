@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import reDirname from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/regexp-dirname/tags). For example,
+
+```javascript
 import reDirname from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { REGEXP, REGEXP_POSIX, REGEXP_WIN32 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname@v0.1.0-deno/mod.js';
+import { REGEXP, REGEXP_POSIX, REGEXP_WIN32 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname@deno/mod.js';
 ```
 
 #### reDirname( \[platform] )
@@ -120,7 +125,7 @@ var dir = reDirname.REGEXP_WIN32.exec( 'C:\\foo\\bar\\index.js' )[ 1 ];
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import reDirname from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname@v0.1.0-deno/mod.js';
+import reDirname from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname@deno/mod.js';
 var RE_DIRNAME = reDirname();
 var dir;
 
