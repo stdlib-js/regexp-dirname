@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import reDirname from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/regexp-dirname/tags). For example,
+
+```javascript
 import reDirname from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { REGEXP, REGEXP_POSIX, REGEXP_WIN32 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname@v0.2.0-esm/index.mjs';
+import { REGEXP, REGEXP_POSIX, REGEXP_WIN32 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname@esm/index.mjs';
 ```
 
 #### reDirname( \[platform] )
@@ -125,7 +130,7 @@ var dir = reDirname.REGEXP_WIN32.exec( 'C:\\foo\\bar\\index.js' )[ 1 ];
 <body>
 <script type="module">
 
-import reDirname from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname@v0.2.0-esm/index.mjs';
+import reDirname from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-dirname@esm/index.mjs';
 var RE_DIRNAME = reDirname();
 var dir;
 
