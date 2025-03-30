@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-contains": "^0.2.2",
+    "@stdlib/array-base-assert-contains": "^0.2.2",
     "@stdlib/assert-is-windows": "^0.2.2",
     "@stdlib/regexp-dirname-posix": "^0.2.1",
     "@stdlib/regexp-dirname-windows": "^0.2.1",
