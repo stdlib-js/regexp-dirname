@@ -84,7 +84,7 @@ dir = RE.exec( 'C:\\foo\\bar\\index.js' )[ 1 ];
 // returns 'C:\foo\bar'
 ```
 
-#### reBasename.REGEXP
+#### reDirname.REGEXP
 
 [Regular expression][regexp] to capture a path dirname.
 
