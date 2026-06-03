@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-30)
+## Unreleased (2026-06-03)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`dfcf918`](https://github.com/stdlib-js/stdlib/commit/dfcf9185c66be30f67f6f91343e196f16a5ab235) - **chore:** fix typo in interface name and error message [(#12445)](https://github.com/stdlib-js/stdlib/pull/12445) _(by Philipp Burckhardt)_
 -   [`cf4e95c`](https://github.com/stdlib-js/stdlib/commit/cf4e95c3656d2fcf022d939feea32eb9a2c9154a) - **docs:** fix mismatched README sub-header in `regexp/dirname` [(#12363)](https://github.com/stdlib-js/stdlib/pull/12363) _(by Philipp Burckhardt)_
 -   [`8cbca87`](https://github.com/stdlib-js/stdlib/commit/8cbca872cf40171f6c3ec4240524ea940dcd8236) - **bench:** refactor to use string interpolation in `regexp` [(#11593)](https://github.com/stdlib-js/stdlib/pull/11593) _(by Karan Anand, Athan Reines)_
 
